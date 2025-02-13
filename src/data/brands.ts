@@ -8,6 +8,7 @@ export interface Brand {
 export interface Section {
   title: string;
   path: string;
+  iconUrl?: string;
   brands?: Brand[];
 }
 
@@ -61,6 +62,7 @@ export const sections: Section[] = [
   {
     title: "Banco de imagens e fichas técnicas",
     path: "/technical",
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/4296/4296573.png",
     brands: technicalSection,
   },
   {
@@ -77,6 +79,7 @@ export const sections: Section[] = [
   {
     title: "Catálogos",
     path: "/catalogs",
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/9453/9453183.png",
     brands: catalogSection,
   },
 ];

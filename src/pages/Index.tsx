@@ -27,6 +27,13 @@ const Index = () => {
             <SectionCard key={section.title} section={section} />
           ))}
         </div>
+        <div className="mt-16 flex justify-center">
+          <img
+            src="https://www.madeiranit.com.br/media/wysiwyg/Madeiranit-Sobre.png"
+            alt="Madeiranit logo"
+            className="h-8 object-contain opacity-70"
+          />
+        </div>
       </div>
     </div>
   );
