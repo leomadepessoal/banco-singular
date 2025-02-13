@@ -1,6 +1,6 @@
 
-import { BrandCard } from "@/components/BrandCard";
-import { brands } from "@/data/brands";
+import { SectionCard } from "@/components/SectionCard";
+import { sections } from "@/data/brands";
 
 const Index = () => {
   return (
@@ -23,13 +23,8 @@ const Index = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {brands.map((brand) => (
-            <BrandCard
-              key={brand.name}
-              name={brand.name}
-              link={brand.link}
-              logoUrl={brand.logoUrl}
-            />
+          {sections.map((section) => (
+            <SectionCard key={section.title} section={section} />
           ))}
         </div>
       </div>

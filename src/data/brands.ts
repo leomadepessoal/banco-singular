@@ -5,7 +5,13 @@ export interface Brand {
   logoUrl: string;
 }
 
-export const brands: Brand[] = [
+export interface Section {
+  title: string;
+  path: string;
+  brands?: Brand[];
+}
+
+export const technicalSection: Brand[] = [
   {
     name: "NUNA",
     link: "https://drive.google.com/drive/folders/1FTW9qkum3Cr0aQjwyWm9vczTp0Ng43c8?usp=drive_link",
@@ -26,9 +32,51 @@ export const brands: Brand[] = [
     link: "https://drive.google.com/drive/folders/1Niqc0o68Ehj0HY5pqOo215xCnhDkhIMB?usp=drive_link",
     logoUrl: "https://premiumbabybrasil.com.br/media/theme_options/default/logoPremiumBaby.png",
   },
+];
+
+export const catalogSection: Brand[] = [
   {
-    name: "PMA",
-    link: "https://drive.google.com/file/d/1qrjZYsISZDElSDhsmLxfveFhBSXCUY4R/view?usp=sharing",
-    logoUrl: "https://singularbaby.com.br/media/Logo_Oficial_Singular.png",
+    name: "NUNA",
+    link: "https://drive.google.com/file/d/16tFywCEvImRo2mItaWXVI854sGoJaqOH/view?usp=sharing",
+    logoUrl: "https://logovtor.com/wp-content/uploads/2021/02/nuna-intl-bv-logo-vector.png",
+  },
+  {
+    name: "JOIE",
+    link: "https://drive.google.com/file/d/1Q1C-3j7OTfe94ZtHzaByEjwXiMmeRCHY/view?usp=sharing",
+    logoUrl: "https://dd.joiebaby.com/media/logo/default/Joie-Logo.png",
+  },
+  {
+    name: "MINIKOIOI",
+    link: "https://drive.google.com/file/d/1tf7tStsWSFqAigw_aW4Hno4dX7Gxsr95/view?usp=sharing",
+    logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiRoHEl4HrzDammhrL0etrk29hdTm-Jeceig&s",
+  },
+  {
+    name: "PREMIUM BABY",
+    link: "https://drive.google.com/file/d/1N3NDa8cLc_2hRXlA4Z1hkogV3YCgH9Rv/view?usp=sharing",
+    logoUrl: "https://premiumbabybrasil.com.br/media/theme_options/default/logoPremiumBaby.png",
+  },
+];
+
+export const sections: Section[] = [
+  {
+    title: "Banco de imagens e fichas técnicas",
+    path: "/technical",
+    brands: technicalSection,
+  },
+  {
+    title: "PMA",
+    path: "/pma",
+    brands: [
+      {
+        name: "PMA",
+        link: "https://drive.google.com/file/d/1WCtSocnzbMTlXNxpj_St0PNQHGT4c7xq/view?usp=sharing",
+        logoUrl: "https://singularbaby.com.br/media/Logo_Oficial_Singular.png",
+      },
+    ],
+  },
+  {
+    title: "Catálogos",
+    path: "/catalogs",
+    brands: catalogSection,
   },
 ];
