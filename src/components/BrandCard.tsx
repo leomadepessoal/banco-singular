@@ -26,7 +26,7 @@ export const BrandCard = ({ name, link, logoUrl }: BrandCardProps) => {
         />
       </div>
       <div className="text-center mt-2">
-        <h3 className="font-medium text-gray-900 group-hover:text-gray-700 transition-colors">
+        <h3 className="font-bold text-gray-900 group-hover:text-gray-700 transition-colors">
           {name}
         </h3>
         <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-gray-600 absolute top-4 right-4 transition-colors" />

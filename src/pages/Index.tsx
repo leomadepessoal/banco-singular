@@ -4,7 +4,7 @@ import { brands } from "@/data/brands";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-100">
       <div className="container px-4 py-16 mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -13,7 +13,7 @@ const Index = () => {
           <p className="text-lg text-gray-600">
             Selecione a pasta que deseja, caso não encontre entre em contato com{" "}
             <a
-              href="https://wa.me/5519992173168?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20o%20banco%20de%20imagens!%20"
+              href="https://web.whatsapp.com/send/?phone=5519992173168&text=Olá%2C+preciso+de+ajuda+com+o+banco+de+imagens%21+&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800 underline"
