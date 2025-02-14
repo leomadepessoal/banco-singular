@@ -72,6 +72,30 @@ export const sections: Section[] = [
     brands: technicalSection,
   },
   {
+    title: "Marketing - Material para clientes",
+    path: "/marketing",
+    iconUrl: "https://www.drawhipo.com/wp-content/uploads/2023/04/Marketing-Color-29-Socialmedia.png",
+    brands: [
+      {
+        name: "Marketing - Material para clientes",
+        link: "https://drive.google.com/drive/folders/1SQQDkJOhFOi9vuC5cdMh1v39B0qEeuNr?usp=sharing",
+        logoUrl: "https://www.drawhipo.com/wp-content/uploads/2023/04/Marketing-Color-29-Socialmedia.png",
+      },
+    ],
+  },
+  {
+    title: "CAMPANHAS/PROMOÇÃO",
+    path: "/campaigns",
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/5673/5673350.png",
+    brands: [
+      {
+        name: "CAMPANHAS/PROMOÇÃO",
+        link: "https://drive.google.com/drive/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE?usp=sharing",
+        logoUrl: "https://cdn-icons-png.flaticon.com/512/5673/5673350.png",
+      },
+    ],
+  },
+  {
     title: "PMA",
     path: "/pma",
     iconUrl: "https://static.vecteezy.com/ti/vetor-gratis/p1/20274220-preco-tag-icone-para-seu-local-na-rede-internet-projeto-logotipo-aplicativo-ui-gratis-vetor.jpg",
@@ -83,7 +107,7 @@ export const sections: Section[] = [
       },
       {
         name: "Normas PMA",
-        link: "https://drive.google.com/file/d/1W4tYP4b-8a7vIvXa4wOiXKHCKNiokRKb/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1W4tYP4b-8a7vIvXa4wOiXKHCKNiokRKb/view?usp=drive_link",
         logoUrl: "https://cdn-icons-png.flaticon.com/512/7505/7505111.png",
       },
     ],
