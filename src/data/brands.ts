@@ -60,6 +60,12 @@ export const catalogSection: Brand[] = [
 
 export const sections: Section[] = [
   {
+    title: "Catálogos",
+    path: "/catalogs",
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/9453/9453183.png",
+    brands: catalogSection,
+  },
+  {
     title: "Banco de imagens e fichas técnicas",
     path: "/technical",
     iconUrl: "https://cdn-icons-png.flaticon.com/512/4296/4296573.png",
@@ -68,6 +74,7 @@ export const sections: Section[] = [
   {
     title: "PMA",
     path: "/pma",
+    iconUrl: "https://static.vecteezy.com/ti/vetor-gratis/p1/20274220-preco-tag-icone-para-seu-local-na-rede-internet-projeto-logotipo-aplicativo-ui-gratis-vetor.jpg",
     brands: [
       {
         name: "PMA",
@@ -75,11 +82,5 @@ export const sections: Section[] = [
         logoUrl: "https://singularbaby.com.br/media/Logo_Oficial_Singular.png",
       },
     ],
-  },
-  {
-    title: "Catálogos",
-    path: "/catalogs",
-    iconUrl: "https://cdn-icons-png.flaticon.com/512/9453/9453183.png",
-    brands: catalogSection,
   },
 ];
