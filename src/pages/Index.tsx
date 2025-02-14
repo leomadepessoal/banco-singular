@@ -14,6 +14,17 @@ const Index = () => {
             <p>Informações completas das marcas Joie, Nuna, Premium Baby e Minikoioi.</p>
             <p>Selecione as informações necessárias, como fotos para postagens, campanha vigente, fichas técnicas.</p>
             <p>PMA (Preço Menor Anunciado) - Preço que deve ser praticado pelos nossos parceiros.</p>
+            <p>
+              Caso enfrente qualquer problema, entre em contato com a equipe{" "}
+              <a
+                href="https://api.whatsapp.com/send?phone=5519992173168"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Marketing Singular
+              </a>
+            </p>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
