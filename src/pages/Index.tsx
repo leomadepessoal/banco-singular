@@ -31,7 +31,7 @@ const Index = () => {
           <img
             src="https://logo.empregos.com.br/logo/121310_G.png"
             alt="Singular logo"
-            className="h-12 object-contain opacity-70"
+            className="h-16 object-contain opacity-70"
           />
         </div>
       </div>

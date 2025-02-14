@@ -81,6 +81,11 @@ export const sections: Section[] = [
         link: "https://drive.google.com/file/d/1WCtSocnzbMTlXNxpj_St0PNQHGT4c7xq/view?usp=sharing",
         logoUrl: "https://singularbaby.com.br/media/Logo_Oficial_Singular.png",
       },
+      {
+        name: "Normas PMA",
+        link: "https://drive.google.com/file/d/1W4tYP4b-8a7vIvXa4wOiXKHCKNiokRKb/view?usp=sharing",
+        logoUrl: "https://cdn-icons-png.flaticon.com/512/7505/7505111.png",
+      },
     ],
   },
 ];
