@@ -1,4 +1,3 @@
-
 export interface Brand {
   name: string;
   link: string;
@@ -66,34 +65,20 @@ export const sections: Section[] = [
     brands: catalogSection,
   },
   {
-    title: "Banco de imagens e fichas técnicas",
+    title: "Banco de Imagens e Fichas Técnicas",
     path: "/technical",
     iconUrl: "https://cdn-icons-png.flaticon.com/512/4296/4296573.png",
     brands: technicalSection,
   },
   {
-    title: "Marketing - Material para clientes",
-    path: "/marketing",
+    title: "Marketing - Material Para Clientes",
+    path: "https://drive.google.com/drive/folders/1SQQDkJOhFOi9vuC5cdMh1v39B0qEeuNr?usp=sharing",
     iconUrl: "https://www.drawhipo.com/wp-content/uploads/2023/04/Marketing-Color-29-Socialmedia.png",
-    brands: [
-      {
-        name: "Marketing - Material para clientes",
-        link: "https://drive.google.com/drive/folders/1SQQDkJOhFOi9vuC5cdMh1v39B0qEeuNr?usp=sharing",
-        logoUrl: "https://www.drawhipo.com/wp-content/uploads/2023/04/Marketing-Color-29-Socialmedia.png",
-      },
-    ],
   },
   {
-    title: "CAMPANHAS/PROMOÇÃO",
-    path: "/campaigns",
+    title: "CAMPANHAS / PROMOÇÃO",
+    path: "https://drive.google.com/drive/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE?usp=sharing",
     iconUrl: "https://cdn-icons-png.flaticon.com/512/5673/5673350.png",
-    brands: [
-      {
-        name: "CAMPANHAS/PROMOÇÃO",
-        link: "https://drive.google.com/drive/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE?usp=sharing",
-        logoUrl: "https://cdn-icons-png.flaticon.com/512/5673/5673350.png",
-      },
-    ],
   },
   {
     title: "PMA",
