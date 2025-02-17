@@ -1,7 +1,9 @@
+
 export interface Brand {
   name: string;
   link: string;
   logoUrl: string;
+  requiresPassword?: boolean;
 }
 
 export interface Section {
