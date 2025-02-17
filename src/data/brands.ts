@@ -1,4 +1,3 @@
-
 export interface Brand {
   name: string;
   link: string;
@@ -71,8 +70,7 @@ export const campanhasSection: Brand[] = [
   {
     name: "Distribuidores",
     link: "https://drive.google.com/drive/u/0/folders/1njgbeS02N80cQv48Hq371ELZaYbps2kb",
-    logoUrl: "https://cdn-icons-png.flaticon.com/512/10991/10991992.png",
-    requiresPassword: true
+    logoUrl: "https://cdn-icons-png.flaticon.com/512/10991/10991992.png"
   },
   {
     name: "Clientes",
