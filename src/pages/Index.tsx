@@ -32,7 +32,7 @@ const Index = () => {
             <SectionCard key={section.title} section={section} />
           ))}
         </div>
-        <div className="mt-16 flex justify-center">
+        <div className="mt-16 flex justify-center gap-8 items-center">
           <a
             href="https://api.whatsapp.com/send?phone=5519992173168"
             target="_blank"
@@ -44,6 +44,11 @@ const Index = () => {
               className="h-16 object-contain opacity-70 hover:opacity-100 transition-opacity"
             />
           </a>
+          <img
+            src="https://singularbaby.com.br/media/Logo_Oficial_Singular.png"
+            alt="Singular Baby logo"
+            className="h-16 object-contain opacity-70 hover:opacity-100 transition-opacity"
+          />
         </div>
       </div>
     </div>
