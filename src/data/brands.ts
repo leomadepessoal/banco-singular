@@ -67,10 +67,16 @@ export const marketingSection: Brand[] = [
 
 export const campanhasSection: Brand[] = [
   {
-    name: "Campanha compre e ganhe",
-    link: "https://drive.google.com/drive/u/0/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE",
-    logoUrl: "https://cdn-icons-png.flaticon.com/512/5673/5673350.png",
+    name: "Distribuidores",
+    link: "https://drive.google.com/drive/u/0/folders/1njgbeS02N80cQv48Hq371ELZaYbps2kb",
+    logoUrl: "https://cdn-icons-png.flaticon.com/512/10991/10991992.png",
+    requiresPassword: true
   },
+  {
+    name: "Clientes",
+    link: "https://drive.google.com/drive/u/0/folders/1MY6lx0hrHziUYtIHqiFW2uzgxfBlGIs6",
+    logoUrl: "https://cdn-icons-png.flaticon.com/512/1478/1478890.png"
+  }
 ];
 
 export const sections: Section[] = [
