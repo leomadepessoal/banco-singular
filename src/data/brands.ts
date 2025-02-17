@@ -59,7 +59,7 @@ export const catalogSection: Brand[] = [
 
 export const marketingSection: Brand[] = [
   {
-    name: "Link",
+    name: "Arquivos / Mídias",
     link: "https://drive.google.com/drive/u/0/folders/1SQQDkJOhFOi9vuC5cdMh1v39B0qEeuNr",
     logoUrl: "https://www.drawhipo.com/wp-content/uploads/2023/04/Marketing-Color-29-Socialmedia.png",
   },
@@ -67,7 +67,7 @@ export const marketingSection: Brand[] = [
 
 export const campanhasSection: Brand[] = [
   {
-    name: "Link",
+    name: "Campanha compre e ganhe",
     link: "https://drive.google.com/drive/u/0/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE",
     logoUrl: "https://cdn-icons-png.flaticon.com/512/5673/5673350.png",
   },
