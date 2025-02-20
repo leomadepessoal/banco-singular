@@ -59,6 +59,22 @@ export const catalogSection: Brand[] = [
   },
 ];
 
+export const marketingSection: Brand[] = [
+  {
+    name: "Marketing",
+    link: "https://drive.google.com/drive/folders/1SQQDkJOhFOi9vuC5cdMh1v39B0qEeuNr?usp=sharing",
+    logoUrl: "https://e7.pngegg.com/pngimages/855/25/png-clipart-digital-marketing-online-advertising-computer-icons-taekwondo-elements-service-logo-thumbnail.png",
+  },
+];
+
+export const campanhasSection: Brand[] = [
+  {
+    name: "Campanhas",
+    link: "https://drive.google.com/drive/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE?usp=drive_link",
+    logoUrl: "https://cdn-icons-png.flaticon.com/512/1312/1312285.png",
+  },
+];
+
 export const sections: Section[] = [
   {
     title: "Catálogos",
@@ -71,6 +87,18 @@ export const sections: Section[] = [
     path: "/technical",
     iconUrl: "https://cdn-icons-png.flaticon.com/512/4296/4296573.png",
     brands: technicalSection,
+  },
+  {
+    title: "Marketing",
+    path: "/marketing",
+    iconUrl: "https://e7.pngegg.com/pngimages/855/25/png-clipart-digital-marketing-online-advertising-computer-icons-taekwondo-elements-service-logo-thumbnail.png",
+    brands: marketingSection,
+  },
+  {
+    title: "Campanhas",
+    path: "/campanhas",
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/1312/1312285.png",
+    brands: campanhasSection,
   },
   {
     title: "PMA",
