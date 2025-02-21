@@ -16,22 +16,22 @@ export interface Section {
 export const technicalSection: Brand[] = [
   {
     name: "NUNA",
-    link: "https://drive.google.com/drive/folders/1FTW9qkum3Cr0aQjwyWm9vczTp0Ng43c8?usp=drive_link",
+    link: "#",
     logoUrl: "https://logovtor.com/wp-content/uploads/2021/02/nuna-intl-bv-logo-vector.png",
   },
   {
     name: "JOIE",
-    link: "https://drive.google.com/drive/folders/16Md6PY2nzdYn2QRKnfs2PCUMMGzXpC0Y?usp=drive_link",
+    link: "#",
     logoUrl: "https://dd.joiebaby.com/media/logo/default/Joie-Logo.png",
   },
   {
     name: "MINIKOIOI",
-    link: "https://drive.google.com/drive/folders/1AxGnV2_StmN8wXjMzqZ2Vp-Gf8Ths_XJ?usp=drive_link",
+    link: "#",
     logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiRoHEl4HrzDammhrL0etrk29hdTm-Jeceig&s",
   },
   {
     name: "PREMIUM BABY",
-    link: "https://drive.google.com/drive/folders/1Niqc0o68Ehj0HY5pqOo215xCnhDkhIMB?usp=drive_link",
+    link: "#",
     logoUrl: "https://premiumbabybrasil.com.br/media/theme_options/default/logoPremiumBaby.png",
   },
 ];
@@ -39,22 +39,22 @@ export const technicalSection: Brand[] = [
 export const catalogSection: Brand[] = [
   {
     name: "NUNA",
-    link: "https://drive.google.com/file/d/16tFywCEvImRo2mItaWXVI854sGoJaqOH/view?usp=sharing",
+    link: "#",
     logoUrl: "https://logovtor.com/wp-content/uploads/2021/02/nuna-intl-bv-logo-vector.png",
   },
   {
     name: "JOIE",
-    link: "https://drive.google.com/file/d/1Q1C-3j7OTfe94ZtHzaByEjwXiMmeRCHY/view?usp=sharing",
+    link: "#",
     logoUrl: "https://dd.joiebaby.com/media/logo/default/Joie-Logo.png",
   },
   {
     name: "MINIKOIOI",
-    link: "https://drive.google.com/file/d/1tf7tStsWSFqAigw_aW4Hno4dX7Gxsr95/view?usp=sharing",
+    link: "#",
     logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiRoHEl4HrzDammhrL0etrk29hdTm-Jeceig&s",
   },
   {
     name: "PREMIUM BABY",
-    link: "https://drive.google.com/file/d/1N3NDa8cLc_2hRXlA4Z1hkogV3YCgH9Rv/view?usp=sharing",
+    link: "#",
     logoUrl: "https://premiumbabybrasil.com.br/media/theme_options/default/logoPremiumBaby.png",
   },
 ];
@@ -62,7 +62,7 @@ export const catalogSection: Brand[] = [
 export const marketingSection: Brand[] = [
   {
     name: "Marketing",
-    link: "https://drive.google.com/drive/folders/1SQQDkJOhFOi9vuC5cdMh1v39B0qEeuNr?usp=sharing",
+    link: "#",
     logoUrl: "https://e7.pngegg.com/pngimages/855/25/png-clipart-digital-marketing-online-advertising-computer-icons-taekwondo-elements-service-logo-thumbnail.png",
   },
 ];
@@ -70,7 +70,7 @@ export const marketingSection: Brand[] = [
 export const campanhasSection: Brand[] = [
   {
     name: "Campanhas",
-    link: "https://drive.google.com/drive/folders/1SIrAQYlG78K07txb6hG0EqZ3uDquS9yE?usp=drive_link",
+    link: "#",
     logoUrl: "https://cdn-icons-png.flaticon.com/512/1312/1312285.png",
   },
 ];
@@ -107,12 +107,12 @@ export const sections: Section[] = [
     brands: [
       {
         name: "PMA",
-        link: "https://drive.google.com/file/d/1WCtSocnzbMTlXNxpj_St0PNQHGT4c7xq/view?usp=sharing",
+        link: "#",
         logoUrl: "https://singularbaby.com.br/media/Logo_Oficial_Singular.png",
       },
       {
         name: "Normas PMA",
-        link: "https://drive.google.com/file/d/1W4tYP4b-8a7vIvXa4wOiXKHCKNiokRKb/view?usp=drive_link",
+        link: "#",
         logoUrl: "https://cdn-icons-png.flaticon.com/512/7505/7505111.png",
       },
     ],
