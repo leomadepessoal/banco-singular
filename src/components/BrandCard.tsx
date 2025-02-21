@@ -22,7 +22,7 @@ export const BrandCard = ({ brand }: BrandCardProps) => {
 
   const handlePasswordSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === "54321") {
+    if (password === "2025") {
       setIsOpen(false);
       window.open(brand.link, "_blank");
       setPassword("");
